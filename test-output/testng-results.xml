@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="4" total="8" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Binup-Jewelry-Suite" duration-ms="40161" started-at="2017-05-24T03:20:34Z" finished-at="2017-05-24T03:21:14Z">
+    <groups>
+    </groups>
+    <test name="Binup-Jewelry-Test" duration-ms="40161" started-at="2017-05-24T03:20:34Z" finished-at="2017-05-24T03:21:14Z">
+      <class name="com.binupjewelry.tests.LoginAndSearchRingTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.binupjewelry.tests.LoginAndSearchRingTest@77cd7a0]" name="beforeClass" is-config="true" duration-ms="7" started-at="2017-05-23T20:20:34Z" finished-at="2017-05-23T20:20:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.binupjewelry.tests.LoginAndSearchRingTest@77cd7a0]" name="beforeMethod" is-config="true" duration-ms="4" started-at="2017-05-23T20:20:34Z" finished-at="2017-05-23T20:20:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.binupjewelry.tests.LoginAndSearchRingTest.login() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="login()[pri:1, instance:com.binupjewelry.tests.LoginAndSearchRingTest@77cd7a0]" name="login" duration-ms="11233" started-at="2017-05-23T20:20:34Z" finished-at="2017-05-23T20:20:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.binupjewelry.tests.LoginAndSearchRingTest@77cd7a0]" name="afterMethod" is-config="true" duration-ms="391" started-at="2017-05-23T20:20:45Z" finished-at="2017-05-23T20:20:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=LoginAndSearchRingTest.login()[pri:1, instance:com.binupjewelry.tests.LoginAndSearchRingTest@77cd7a0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="searchRing()[pri:2, instance:com.binupjewelry.tests.LoginAndSearchRingTest@77cd7a0]" name="searchRing" duration-ms="6226" started-at="2017-05-23T20:20:45Z" depends-on-methods="com.binupjewelry.tests.LoginAndSearchRingTest.login" finished-at="2017-05-23T20:20:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchRing -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.binupjewelry.tests.LoginAndSearchRingTest@77cd7a0]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-05-23T20:20:45Z" finished-at="2017-05-23T20:20:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.binupjewelry.tests.LoginAndSearchRingTest.searchRing() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.binupjewelry.tests.LoginAndSearchRingTest@77cd7a0]" name="afterMethod" is-config="true" duration-ms="99" started-at="2017-05-23T20:20:52Z" finished-at="2017-05-23T20:20:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchRing status=SUCCESS method=LoginAndSearchRingTest.searchRing()[pri:2, instance:com.binupjewelry.tests.LoginAndSearchRingTest@77cd7a0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.binupjewelry.tests.LoginAndSearchRingTest -->
+      <class name="com.binupjewelry.tests.BuyRingTest">
+        <test-method status="PASS" signature="setupTestSuite()[pri:0, instance:com.binupjewelry.tests.BuyRingTest@1a968a59]" name="setupTestSuite" is-config="true" duration-ms="21478" started-at="2017-05-23T20:20:12Z" finished-at="2017-05-23T20:20:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTestSuite -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.binupjewelry.tests.BuyRingTest@1a968a59]" name="beforeClass" is-config="true" duration-ms="0" started-at="2017-05-23T20:20:52Z" finished-at="2017-05-23T20:20:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="BuyRing()[pri:3, instance:com.binupjewelry.tests.BuyRingTest@1a968a59]" name="BuyRing" duration-ms="21897" started-at="2017-05-23T20:20:52Z" finished-at="2017-05-23T20:21:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BuyRing -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.binupjewelry.tests.BuyRingTest@1a968a59]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-05-23T20:20:52Z" finished-at="2017-05-23T20:20:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.binupjewelry.tests.BuyRingTest.BuyRing() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.binupjewelry.tests.BuyRingTest@1a968a59]" name="afterMethod" is-config="true" duration-ms="135" started-at="2017-05-23T20:21:14Z" finished-at="2017-05-23T20:21:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BuyRing status=SUCCESS method=BuyRingTest.BuyRing()[pri:3, instance:com.binupjewelry.tests.BuyRingTest@1a968a59] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="FAIL" signature="FailTestExample()[pri:4, instance:com.binupjewelry.tests.BuyRingTest@1a968a59]" name="FailTestExample" duration-ms="5" started-at="2017-05-23T20:21:14Z" depends-on-methods="com.binupjewelry.tests.BuyRingTest.BuyRing" finished-at="2017-05-23T20:21:14Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [2] but found [1]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [2] but found [1]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:388)
+	at org.testng.Assert.assertEquals(Assert.java:398)
+	at com.binupjewelry.tests.BuyRingTest.FailTestExample(BuyRingTest.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FailTestExample -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.binupjewelry.tests.BuyRingTest@1a968a59]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-05-23T20:21:14Z" finished-at="2017-05-23T20:21:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.binupjewelry.tests.BuyRingTest.FailTestExample()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.binupjewelry.tests.BuyRingTest@1a968a59]" name="afterMethod" is-config="true" duration-ms="122" started-at="2017-05-23T20:21:14Z" finished-at="2017-05-23T20:21:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=FailTestExample status=FAILURE method=BuyRingTest.FailTestExample()[pri:4, instance:com.binupjewelry.tests.BuyRingTest@1a968a59] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="TearDownTestSuite()[pri:0, instance:com.binupjewelry.tests.BuyRingTest@1a968a59]" name="TearDownTestSuite" is-config="true" duration-ms="1" started-at="2017-05-23T20:21:14Z" finished-at="2017-05-23T20:21:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDownTestSuite -->
+      </class> <!-- com.binupjewelry.tests.BuyRingTest -->
+    </test> <!-- Binup-Jewelry-Test -->
+  </suite> <!-- Binup-Jewelry-Suite -->
+</testng-results>

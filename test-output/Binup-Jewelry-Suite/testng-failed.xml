@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Binup-Jewelry-Suite]">
+  <test name="Binup-Jewelry-Test(failed)">
+    <classes>
+      <class name="com.binupjewelry.tests.BuyRingTest">
+        <methods>
+          <include name="TearDownTestSuite"/>
+          <include name="beforeClass"/>
+          <include name="FailTestExample"/>
+          <include name="setupTestSuite"/>
+          <include name="beforeMethod"/>
+          <include name="BuyRing"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.binupjewelry.tests.BuyRingTest -->
+    </classes>
+  </test> <!-- Binup-Jewelry-Test(failed) -->
+</suite> <!-- Failed suite [Binup-Jewelry-Suite] -->
